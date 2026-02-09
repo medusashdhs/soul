@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soul.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Condiment&display=swap" rel="stylesheet">
+    <!-- Grain overlay para textura lo-fi -->
+    <div class="grain-overlay"></div>
+    
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">ソウル</a>
+            <div class="nav-links">
+                <a href="#sobre" class="nav-link">about.</a>
+                <a href="#beats" class="nav-link">preview.</a>
+                <a href="#servicos" class="nav-link">services.</a>
+                <a href="#contato" class="nav-link">tap in.</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section home-section">
+        <div class="home-content">
+            <div class="home-text">
+                <h1 class="home-title">
+                    <span class="title-line">soul.</span>
+                </h1>
+                <p class="home-subtitle">producer/beatmaker</p>
+            </div>
+            
+            <!-- Elemento visual grafite abstrato -->
+            <div class="graffiti-element">
+                <svg width="200" height="200" viewBox="0 0 200 200">
+                    <circle cx="100" cy="100" r="80" fill="none" stroke="var(--accent)" stroke-width="2" opacity="0.3"/>
+                    <circle cx="100" cy="100" r="60" fill="none" stroke="var(--accent)" stroke-width="1" opacity="0.2"/>
+                    <line x1="50" y1="100" x2="150" y2="100" stroke="var(--text-dim)" stroke-width="1" opacity="0.4"/>
+                    <line x1="100" y1="50" x2="100" y2="150" stroke="var(--text-dim)" stroke-width="1" opacity="0.4"/>
+                </svg>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <span>scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="section sobre-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">about.</h2>
+            </div>
+            
+            <div class="sobre-content">
+                <div class="sobre-text">
+                    <p class="sobre-paragraph">
+                        i’m a producer and beatmaker based in Minas Gerais, Brazil, focused on hip-hop and its subgenres — especially boom bap. 
+                    </p>
+                    <p class="sobre-paragraph">
+                        my sound is heavily influenced by artists like Kanye West, Joey Bada$$, Kendrick Lamar, Sono TWS, and many other rappers and producers that shaped my musical identity.
+                    </p>
+                    <p class="sobre-paragraph">
+                       music production for independent artists, soundtracks, and original projects of all kinds.
+                    </p>
+                </div>
+                
+                <div class="sobre-image">
+                    <div class="image-frame">
+                        <div class="image-placeholder">
+                            <!-- Placeholder visual urbano -->
+                            <div class="placeholder-grid">
+                                <div class="grid-item"></div>
+                                <div class="grid-item"></div>
+                                <div class="grid-item"></div>
+                                <div class="grid-item"></div>
+                            </div>
+                        </div>
+                        <span class="image-caption">soulfull.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beats Section -->
+    <section id="beats" class="section beats-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">preview.</h2>
+            </div>
+            
+            <div class="beats-grid">
+                <!-- Beat 1 -->
+                <div class="beat-card" data-beat="1">
+                    <div class="beat-visual">
+                        <div class="waveform">
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                        </div>
+                    </div>
+                    <div class="beat-info">
+                        <h3 class="beat-name">CONCRETE DREAMS</h3>
+                        <div class="beat-meta">
+                            <span class="beat-bpm">85 BPM</span>
+                            <span class="beat-style">Lo-Fi / Chill</span>
+                        </div>
+                    </div>
+                    <button class="beat-play">▶</button>
+                </div>
+
+                <!-- Beat 2 -->
+                <div class="beat-card" data-beat="2">
+                    <div class="beat-visual">
+                        <div class="waveform">
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                        </div>
+                    </div>
+                    <div class="beat-info">
+                        <h3 class="beat-name">NIGHT SHIFT</h3>
+                        <div class="beat-meta">
+                            <span class="beat-bpm">92 BPM</span>
+                            <span class="beat-style">Boom Bap</span>
+                        </div>
+                    </div>
+                    <button class="beat-play">▶</button>
+                </div>
+
+                <!-- Beat 3 -->
+                <div class="beat-card" data-beat="3">
+                    <div class="beat-visual">
+                        <div class="waveform">
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                        </div>
+                    </div>
+                    <div class="beat-info">
+                        <h3 class="beat-name">SUBWAY TALES</h3>
+                        <div class="beat-meta">
+                            <span class="beat-bpm">78 BPM</span>
+                            <span class="beat-style">Jazz Hop</span>
+                        </div>
+                    </div>
+                    <button class="beat-play">▶</button>
+                </div>
+
+                <!-- Beat 4 -->
+                <div class="beat-card" data-beat="4">
+                    <div class="beat-visual">
+                        <div class="waveform">
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                        </div>
+                    </div>
+                    <div class="beat-info">
+                        <h3 class="beat-name">URBAN SILENCE</h3>
+                        <div class="beat-meta">
+                            <span class="beat-bpm">88 BPM</span>
+                            <span class="beat-style">Ambient Hip-Hop</span>
+                        </div>
+                    </div>
+                    <button class="beat-play">▶</button>
+                </div>
+
+                <!-- Beat 5 -->
+                <div class="beat-card" data-beat="5">
+                    <div class="beat-visual">
+                        <div class="waveform">
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                        </div>
+                    </div>
+                    <div class="beat-info">
+                        <h3 class="beat-name">SKATE PARK</h3>
+                        <div class="beat-meta">
+                            <span class="beat-bpm">95 BPM</span>
+                            <span class="beat-style">Street</span>
+                        </div>
+                    </div>
+                    <button class="beat-play">▶</button>
+                </div>
+
+                <!-- Beat 6 -->
+                <div class="beat-card" data-beat="6">
+                    <div class="beat-visual">
+                        <div class="waveform">
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                            <div class="wave-bar"></div>
+                        </div>
+                    </div>
+                    <div class="beat-info">
+                        <h3 class="beat-name">LATE NIGHT TAPE</h3>
+                        <div class="beat-meta">
+                            <span class="beat-bpm">82 BPM</span>
+                            <span class="beat-style">Lo-Fi / Study</span>
+                        </div>
+                    </div>
+                    <button class="beat-play">▶</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços Section -->
+    <section id="servicos" class="section servicos-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">services.</h2>
+            </div>
+            
+            <div class="servicos-grid">
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40">
+                            <rect x="5" y="15" width="4" height="10" fill="var(--accent)" opacity="0.6"/>
+                            <rect x="12" y="10" width="4" height="20" fill="var(--accent)" opacity="0.8"/>
+                            <rect x="19" y="8" width="4" height="24" fill="var(--accent)"/>
+                            <rect x="26" y="12" width="4" height="16" fill="var(--accent)" opacity="0.7"/>
+                            <rect x="33" y="16" width="4" height="8" fill="var(--accent)" opacity="0.5"/>
+                        </svg>
+                    </div>
+                    <h3 class="servico-title">full production.</h3>
+                    <p class="servico-desc">
+                        full production for artists. from concept to final mix.
+                    </p>
+                </div>
+
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40">
+                            <circle cx="20" cy="20" r="12" fill="none" stroke="var(--accent)" stroke-width="2"/>
+                            <circle cx="20" cy="20" r="3" fill="var(--accent)"/>
+                        </svg>
+                    </div>
+                    <h3 class="servico-title">beats.</h3>
+                    <p class="servico-desc">
+                        ready-made beats and licensing. constantly updated catalog on youtube.
+                    </p>
+                </div>
+
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40">
+                            <path d="M10 20 L20 10 L30 20 L20 30 Z" fill="none" stroke="var(--accent)" stroke-width="2"/>
+                            <circle cx="20" cy="20" r="3" fill="var(--accent)"/>
+                        </svg>
+                    </div>
+                    <h3 class="servico-title">custom.</h3>
+                    <p class="servico-desc">
+                        Custom production. Exclusive rights for unique projects.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="section contato-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">tap in.</h2>
+            </div>
+            
+            <div class="contato-content">
+                <div class="contato-text">
+                    <p class="contato-lead">lets work together.</p>
+                    <p class="contato-info">
+                        Open for projects, collaborations, and beat licensing.
+                    </p>
+                </div>
+                
+                <div class="contato-links">
+                    <a href="mailto:void@beats.com" class="contact-link">
+                        <span class="link-icon">✉</span>
+                        <span class="link-text">void@beats.com</span>
+                    </a>
+                    
+                    <a href="https://youtube.com/@prod-soul" class="contact-link" target="_blank" rel="noopener">
+                        <span class="link-icon">▶</span>
+                        <span class="link-text">YouTube</span>
+                    </a>
+                    
+                    <a href="https://instagram.com/soull.flp" class="contact-link" target="_blank" rel="noopener">
+                        <span class="link-icon">@</span>
+                        <span class="link-text">Instagram</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="footer-text">soul. 2026</p>
+            <p class="footer-location">MG — Brasil</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
